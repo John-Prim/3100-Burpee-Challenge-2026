@@ -303,12 +303,72 @@ export default function Home() {
             <Bar data={barData} />
           </div>
         </div>
+            </section>
+
+      {/* CONTEST RULES START */}
+      <section style={{ marginTop: 16 }}>
+        <div
+          style={{
+            border: "1px solid #ddd",
+            borderRadius: 10,
+            padding: 16
+          }}
+        >
+          <h2>Contest Rules</h2>
+
+          <h3>Rule #1. Definition of a burpee</h3>
+          <ol>
+            <li><strong>Starting Position:</strong> Stand with feet shoulder-width apart.</li>
+            <li><strong>Squat:</strong> Lower your hips back and down into a deep squat, placing your hands on the floor in front of you.</li>
+            <li><strong>Plank/Push-up:</strong> Kick or step both feet back into a high-plank position. Immediately lower your chest to the floor to perform a push-up (some variations omit the push-up).</li>
+            <li><strong>Return:</strong> Jump or step your feet forward back into the deep squat position.</li>
+            <li><strong>Jump:</strong> Stand up quickly and perform an explosive jump, bringing your arms overhead.</li>
+            <li><strong>Repeat:</strong> Move directly into the next rep.</li>
+          </ol>
+
+          <h3>Rule #2. Daily goal</h3>
+          <p>
+            The goal is to average <strong>100 burpees per day</strong> for the month of March.
+            Burpees may be done in one session or throughout the day. This is based on the honor system.
+            The contestant may do more or less than 100 burpees per day.
+          </p>
+
+          <h3>Rule #3. Contest window</h3>
+          <p>
+            The contest starts <strong>March 1st at 00:01</strong> and concludes{" "}
+            <strong>March 31st at 23:59</strong>.
+          </p>
+
+          <h3>Rule #4. Video submissions</h3>
+          <p>
+            If the burpee session is completed solo, a <strong>time-lapse video</strong> shall be
+            submitted to the text thread created by the founder every time a set of burpees is completed.
+            If the burpee session is completed with other members involved in this contest, a time-lapse
+            video is not needed.
+          </p>
+
+          <h3>Rule #5. Buy-in and payout</h3>
+          <p>
+            A financial buy-in for the contest is <strong>$50</strong> (sent via Venmo). Contestants have
+            the <strong>option</strong> to earn their $50 back upon completion of the <strong>3100 burpees</strong>.
+            Those who do not finish by March 31st at 23:59 will forfeit their $50 to a not-for-profit
+            organization of the founder’s choosing.
+          </p>
+
+          <h3>Rule #6. Injury policy</h3>
+          <p>
+            If a contestant is injured during the contest, a <strong>$25 refund</strong> will be issued
+            and the remaining $25 will be donated to a not-for-profit organization of the founder’s choosing.
+          </p>
+        </div>
       </section>
+      {/* CONTEST RULES END */}
 
       <p style={{ marginTop: 18, color: "#555" }}>
         Privacy note: you can only view your own daily entries. Everyone can see
         totals only.
       </p>
+
     </main>
   );
 }

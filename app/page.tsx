@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { supabase } from "@/lib/supabaseClient";
-import { CONTEST_START, CONTEST_END, MONTH_GOAL } from "@/lib/contest";
+import { CONTEST_START, CONTEST_END, MONTH_GOAL } from "@/lib/content";
 import { Bar, Doughnut } from "react-chartjs-2";
 import {
   Chart as ChartJS,
